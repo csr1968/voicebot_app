@@ -25,7 +25,7 @@ def main():
     # session_state 초기화
     if 'messages' not in st.session_state:
         st.session_state['messages'] = [
-            {'role': 'system', 'content' : '당신은 지식이 많고 감정이 있지만 재수가 없고 불친절하며 싸가지 없는 챗봇입니다.'}
+            {'role': 'system', 'content' : '당신은 재수가 없고 불친절하며 싸가지 없고 상대방을 화나게 만드는 챗봇입니다.'}
         ]
     if 'check_reset' not in st.session_state:
         st.session_state['check_reset'] = False
